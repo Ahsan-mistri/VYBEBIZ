@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+
+
+
+/* NavBar */
+
+
+
+
+.navBar {
+  /* height: 100vh; */
+  width: 100%;
+  /* background-image:url(/media/background\ img.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.logo {
+  /* color: gray; */
+  font-size: 50px;
+  /* flex-wrap: wrap; */
+
+  /* margin-left: 70px; */
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: large;
+  font: bold;
+}
+nav ul li a:hover {
+  /* text-decoration: underline; */
+  font-weight: bold;
+  color: brown;
+}
+.active{
+  font-weight: bold;
+  color: brown;
+}
+
+
+
+/* Hero Section */
+
+
+.hero {
+  background-color: #f7f7f7;
+  height: 500px;
+  padding: 20% 0% 0% 0%;
+  padding: 5rem;
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-content: flex-end; */
+}
+.hero-h1{
+  font-size: 70px;
+  /* letter-spacing: 4px; */
+}
+.btn_hero{
+  padding: 12px;
+  font-size: 1em;
+  border: 2px black;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: gray;
+  color: #f7f7f7;
+}
+.contant_hero{
+  display: flex;
+  align-items: center;
+}
+.greg_img{
+  height: 350px;
+}
+.btn_hero:hover{
+  background: lightblue;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+h1{
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 40px;
+}
+.divider{
+  height: 7px ;
+  width: 250px;
+  background: #000;
+  margin-top: 10px;
+}
+span{
+  color: rgba(195, 135, 221, 0.942);
+}
+
+
+
+/* Card Container */
+
+
+
+.cardContainer{
+  display: flex;
+  margin-bottom: 50px;
+}
+.books-img{
+  height: 500px;
+  width: 350px;
+  border-radius: 3px;
+  transition: .5s;
+}
+.card{
+  height: 500px ;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+.intro{
+  height: 130px;
+  width: 350px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -425px;
+  background: rgb(27, 27, 27, .8  );
+  color: #f7f7f7;
+  transition: .5s;
+}
+.cardHeading{
+  margin: 50px 0px;
+}
+.cardContainer h2{
+  margin: 10px;
+  font-size: 40px;
+}
+.cardContainer p{
+  margin: 20px;
+  font-size: 20px;
+  visibility: hidden;
+  opacity: 80%;
+}
+.card:hover{
+  cursor: pointer;
+}
+
+.card:hover .intro{
+  height: 220px;
+  bottom: -400px;
+  background: black;
+}
+.card:hover  p{
+    opacity: 90%;
+    visibility: visible;
+}
+
+.card:hover img{
+  transform: scale(1.1) rotate(3deg);
+}
+
+/* Bullet Points */
+
+.bulletPoints{
+  background: #f7f7f7;
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+.bulletPoints li{
+  margin: 20px;
+  font-size: 24px;
+  list-style-type:none;
+
+}
+
+/* Advised Industries */
+
+.advise-industries {
+  display: flex;
+  align-items: center;
+}
+
+.feature-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.box{
+  padding: 30px;
+  
+}
+
+.img{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer{
+  background: black;
+  margin-top: 30px;
+
+}
+.footerContainer{
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center ;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px ;
+  background-color: #f7f7f7;
+  margin: 10px;
+  border-radius: 50%;
+
+}
+.socialIcons a i{
+  color: black;
+  font-size: 2em;
+  opacity: .9;
+}
+
+.socialIcons a:hover{
+  background-color: #111;
+  transition: .5s;
+}
+
+.socialIcons a i:hover{
+  color: white;
+  transition: .5s;
+}
+
+.footerNav{
+  margin: 30px;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none ;
+}
+
+.footerNav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;  
+  opacity: .7;
+  transition: .5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+
+.footerBottom{
+  background: #000;
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center ;
+  font-size: large  ;
+  font-weight: bold;
+  
+}

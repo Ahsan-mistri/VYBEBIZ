@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+/* NavBar */
+
+.navBar {
+  /* height: 100vh; */
+  width: 100%;
+  /* background-image:url(/media/background\ img.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.logo {
+  color: gray;
+  font-size: 50px;
+  /* margin-left: 70px; */
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: blueviolet;
+  text-decoration: none;
+  font-size: large;
+  font: bold;
+}
+nav ul li a:hover {
+  /* text-decoration: underline; */
+  font-weight: bold;
+  color: brown;
+}
+.active{
+  font-weight: bold;
+  color: brown;
+}
+
+
+/* Hero Section */
+
+.hero {
+  background-color: #f7f7f7;
+  height: 500px;
+  padding: 40% 0% 0% 0%;
+  padding: 5rem;
+  margin-top: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-content: flex-end; */
+}
+.hero-h1{
+  font-size: 40px;
+  /* letter-spacing: 2px; */
+}
+.contant_hero{
+  display: flex;
+  align-items: center;
+}
+.greg_img{
+  height: 350px;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+/* contant */
+
+.advise-industries {
+  display: flex;
+  align-items: center;
+}
+
+.feature-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.box{
+  padding: 30px;
+  
+}
+
+.img{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer{
+  background: black;
+  margin-top: 30px;
+
+}
+.footerContainer{
+   width: 100%;
+   padding: 70px 30px 20px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center ;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px ;
+  background-color: #f7f7f7;
+  margin: 10px;
+  border-radius: 50%;
+
+}
+.socialIcons a i{
+  color: black;
+  font-size: 2em;
+  opacity: .9;
+}
+
+.socialIcons a:hover{
+  background-color: #111;
+  transition: .5s;
+}
+
+.socialIcons a i:hover{
+  color: white;
+  transition: .5s;
+}
+
+.footerNav{
+  margin: 30px;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none ;
+}
+
+.footerNav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;  
+  opacity: .7;
+  transition: .5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+
+.footerBottom{
+  background: #000;
+  color: white;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center ;
+  font-size: large  ;
+  font-weight: bold;
+  
+}
